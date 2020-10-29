@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-05-12 00:43:14
+ * @version $Id$
+ */
+.hover_logo{
+	padding: 0px;
+}
+
+.img_logo{
+	
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+.hover_logo{
+	padding: 0px;
+}
+
+.img_logo{
+	
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.nav-stacked>li>a {
+    border-radius: 0px;
+    color: #000;
+   height: 50px;
+   line-height: 25px;
+   transition: all .3s linear !important;
+}
+.nav-stacked>li+li {
+     margin-top: 0px; 
+    margin-left: 0;
+}
+.navbar-default .navbar-nav>li>a:hover{
+   
+      background:#d6ee74;
+      color: #fff;
+
+}
+
+
+
+
+
+/* header end */
+
+.banner_top{
+	margin-top: 50px;
+}
+
+/*banner end*/
+
+.bread{
+	width: 100%;
+	float: left;
+	background-image: url(../images/bread_bg.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding-bottom: 100px;
+}
+
+.shangdian_title{
+	border: none;
+	text-align: center;
+	font-size: 30px;
+	margin: 0px;
+	color:#969696;
+	margin-top: 68px;
+	text-transform: uppercase;
+}
+.shangdian_desc{
+	color:#969696;
+	text-align: center;
+	margin: 0px;
+	font-size: 18px;
+	background-image: url(../images/shangdian_desc_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	margin-bottom: 80px;
+}
+.bread_desc{
+	text-indent: 40px;
+	font-size: 16px;
+	color:#969696;
+}
+
+/* break end*/
+.zhongzhi{
+	width: 100%;
+	float: left;
+	padding-bottom: 70px;
+	
+}
+.zhongzhi_box{
+	width: 100%;
+	float: left;
+	background-image: url(../images/zhongzhi_bg.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin-bottom: 35px;
+
+}
+
+.zhongzhi_desc{
+	margin-top: 30px;
+	line-height: 30px;
+	text-indent: 30px;
+	color: #969696;
+	
+}
+.zhongzhi_desc{
+	color: #cecece;
+	padding: 0px 50px;
+}
+.zhongzhi_bg{
+	padding: 100px 0px;
+	background-image: url(../images/zhongzhi_bg_yun.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+.zhongzhi_bg_yun1{
+
+	padding: 100px 0px;
+	background-image: url(../images/zhongzhi_bg_yun1.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+.zhongzhi_bo{
+	margin-bottom: 20px;
+}
+.zhongzhi_bo_title{
+	color: #646464;
+	font-size: 24px;
+}
+.zhongzhi_bgs{
+padding: 100px 0px;
+background-image: none;
+
+}
+
+/* zhong zhi end*/
+
+
+footer{
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+	background:#454545;
+}
+.footer_titel{
+	text-indent: 10px;
+	width: 100%;
+	color: #fff;
+	font-size: 18px;
+}
+.uls{
+	margin-left: 0px;
+	padding: 0px;
+}
+.uls li{
+	color: #fff;
+
+}
+.foot_padd{
+	padding: 0px;
+	margin:0px;
+}
+
+.border_{
+	
+	margin:0px;
+	padding: 0px;
+}
+
+
+
+@media screen and (max-width: 790px){
+
+       .footer_img{
+       	display: none;
+
+       }
+
+}
+
+@media screen and (max-width: 417px){
+
+       .font_size{
+       	font-size: 10px;
+       	
+       }
+       .footer_titel{
+       	font-size: 12px;
+       }
+
+}

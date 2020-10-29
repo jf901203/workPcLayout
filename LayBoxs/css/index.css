@@ -1,0 +1,462 @@
+
+
+
+
+
+
+.navbar-inverse{
+    background-color: #222222;
+  }
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+   background-color: #222222;
+}
+
+
+ .navbar-inverse .navbar-nav>.active>a:hover {
+
+    color: #fff;
+    background-color: #000;
+    transition: all .3s linear !important;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.navbar {
+     border:none;
+     border-radius: 0
+}
+
+
+/*.nav-stacked>li>a {
+    border-radius: 0px;
+    color: #000;
+   height: 50px;
+   line-height: 25px;
+   transition: all .3s linear !important;
+}
+.nav-stacked>li+li {
+     margin-top: 0px; 
+    margin-left: 0;
+}
+.navbar-default .navbar-nav>li>a:hover{
+   
+      background-color: #080808;
+      color: #fff;
+
+
+
+}*/
+
+
+
+.banner{
+  width: 100%;
+  background-color: #2b80d9;
+  
+}
+
+
+
+.bg_img{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.bg_img img{
+  width: 100%;
+  height: 100%;
+}
+.bg_img:hover{
+
+  opacity: 0.7;
+}
+
+/*banner end*/
+
+.flash{
+  width: 100%;
+  background-color:#fbfaf7;
+  padding-bottom: 40px;
+
+}
+.flash_list{
+  margin-bottom: 45px;
+  
+
+}
+.flash_title{
+
+  font-family: Yh;
+  font-size: 47.75px;
+  font-weight: bold;
+  color: #0078d7;
+  margin-top: 106px;
+
+}
+.flash_desc{
+  font-family: Yh;
+  font-size: 30.22px;
+  color: #666666;
+  margin-bottom: 77px;
+  margin-top: 35px;
+}
+.flash_hover{
+  width: 64px;
+  height: 64px;
+  border-radius: 5px;
+  background-color: #0078d7;
+  transition:all .3s linear;
+}
+.flash_hover:hover{
+
+    background-color: #666666;
+    transform:rotate(360deg);
+}
+.flash_icon{
+   margin-top: 0px;
+}
+.flash .container{
+  background-image: url(../images/flash_bg.png);
+  background-repeat: no-repeat;
+  background-position:right 100px;
+
+  
+}
+
+/*flash end*/
+.layabox{
+  width: 100%;
+  background:#fff;
+  padding-top: 116px;
+}
+
+.img_ling{
+
+  opacity: 1;
+  transition:all .3s ease-out;
+}
+.img_ling:hover{
+   opacity: 0.8;
+}
+
+
+.layabox_title{
+
+  font-size:48.06px;
+  color:#8fc31f;
+  padding-bottom:0px;
+  margin-bottom: 23px;
+  font-weight: bold;
+
+}
+.layabox_list li{
+
+  line-height: 58px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: #666666;
+  
+  transition:all .3s linear;
+}
+
+
+.layabox_list li:hover{
+
+   transform:rotateX(360deg);
+
+}
+
+/*  子元素浮动  父元素 高度塌陷  父元素的同辈元素 挤在同一行 */
+.layabox_list li span{
+  width: 54px;
+  height: 54px;
+  display: inline-block;
+  background:#8fc31f;
+  overflow: hidden;
+  border-radius: 50%;
+  transition:all .3s linear;
+  float: left;
+  margin-right: 10px;
+}
+
+/*给父级元素清除浮动*/
+
+.layabox_list li:after{
+
+   content:"";
+   width: 0px;
+   height: 0px;
+   overflow: hidden;
+   display: block;
+   clear: both;
+}
+
+.layabox_list li span:hover{
+ background:#666666;
+ transform:rotateY(360deg);
+}
+
+
+.layaAir{
+  width: 100%;
+  background:#0079d7;
+}
+.product_title{
+
+     margin-top: 110px;
+     margin-bottom: 60px;
+}
+.product_title h3{
+  font-size: 49px;
+  color: #fff;
+}
+.product_icon{
+ 
+  width:75px;
+  height:71px;
+  margin-top:18px;
+  border-radius: 10px;
+  padding: 0px;
+
+}
+.product_icon img{
+
+  width:54px;
+  height:54px;
+  margin: 0px;
+  padding: 0px;
+
+}
+.product_item{
+  color: #fff;
+  padding-left:50px;
+
+}
+.product_item h4{
+  font-size: 33px;
+}
+
+.product_element{
+  margin-bottom: 80px;
+}
+
+/* layaAir end */
+
+.layaGame{
+ width: 100%;
+ padding: 80px 0px 50px;
+ float: left;
+ background-color: #ffffff;
+
+}
+.game_box{
+  margin-bottom: 50px;
+}
+.game_more{
+ 
+  padding-top: 50px;
+}
+.game_more a{
+
+  color: #2a2a2a;
+  font-size: 14px;
+}
+.game_content{
+  margin-bottom: 34px;
+}
+
+.img_hover{
+  margin-left:10%;
+  transition:all .3s linear;
+}
+.img_hover:hover{
+
+   opacity: 0.5;
+}
+.game_content p{
+
+  margin:5px auto;
+}
+
+
+/* game end */
+
+.company{
+  width: 100%;
+  float: left;
+  background-color: #f4f4f4;
+  padding-bottom: 50px;
+  padding-top: 40px;
+}
+.company_title{
+  font-size: 30px;
+  color: #2a2a2a;
+  border: none;
+}
+.company_title span{
+
+     font-size: 12px;
+     color: #818181;
+}
+
+/* company end */
+
+
+footer{
+
+  width: 100%;
+  background-color: #3b3b3b;
+  padding: 33px 0px;
+}
+.contact ul{
+  margin:0px;
+  padding: 0px;
+}
+.contact li{
+  width:70px;
+  height:25px;
+  line-height:25px;
+  margin-top:30px;
+  text-align:left;
+  float: left;
+}
+.contact li a{
+  color: #a1a3ab;
+}
+.contact:after{
+  content: "";
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  display: block;
+  clear: both;
+}
+.copyright{
+  font-size: 12px;
+  color: #a1a3ab;
+
+}
+
+.foot_list a{
+
+        width: 38px;
+        height: 38px;
+        border-radius: 100%;
+        background-image: url(../images/foot_list_1.png);
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 100%;
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 30px;
+        position: relative;
+}
+.foot_list a:nth-of-type(2){
+
+       background-image: url(../images/foot_list_2.png);
+}
+.foot_list a:nth-of-type(3){
+
+       background-image: url(../images/foot_list_3.png);
+}
+.foot_list_img{
+  position: absolute;
+  color:#000;
+  background:#fff;
+  top:-156px;
+  left:-54px;
+  min-width:150px;
+  display: none;
+  transition:all .3s linear;
+  
+}
+.foot_list_img:after{
+
+     content:"";
+     display: block;
+     border-top: 10px solid #fff;
+     border-left:10px solid transparent;
+     border-right: 10px solid transparent;
+     width: 0;
+     height: 0;
+     position: absolute;
+     bottom:-10px;
+     left:42%;
+}
+
+.foot_list a:hover .foot_list_img{
+      
+     display: block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+
+.img_hide{
+  
+  display:none;
+ }
+
+ .img_show{
+  width: 100%;
+ }
+
+}
+
+
+@media screen and (max-width: 440px){
+
+.layabox_list li span{
+  width: 0;
+  height: 0;
+  display:none;
+
+
+  
+}
+
+.layabox_list li{
+  margin-left: 0px;
+}
+
+}
+
+
+@media screen and (max-width: 750px){
+
+.flash .container{
+  background-image:none;
+
+  
+}
+
+}

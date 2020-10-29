@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-05-13 00:18:45
+ * @version $Id$
+ */
+
+.select{
+	width: 100%;
+	background-image: url(../images/select_img.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 250px 0px;
+}
+input{
+	width: 20%;
+	border: 0px;
+	background:#edf0f0;
+	line-height: 30px;
+}
+.btn{
+	border: 0px;
+	background: #0e7e6f;
+	color: #fff;
+	margin-left: 2px;
+}
